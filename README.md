@@ -34,4 +34,5 @@ git clone https://github.com/mrbrunelli/regexp-mask-money
 ```
 
 #### Observação
-Essa função está limitada até ```R$ 1.000.000,00```. Caso sua aplicação necessite de números maiores, é só adicionar na função, seguindo a lógica criada. Irei desenvolver uma versão utilizando o ```while```, para que não tenha limites.
+* Essa função está limitada até ```R$ 1.000.000,00```. Caso sua aplicação necessite de números maiores, é só adicionar na função, seguindo a lógica criada. Irei desenvolver uma versão utilizando o ```while```, para que não tenha limites.
+* O RegExp se perde quando é feito o processo inverso (apagar o que foi digitado). Ele não consegue calcular e adicionar os pontos e vírgulas. Uma opção é adicionar uma verificação de tecla, caso aperte ```backspace``` ele apague todo o valor do input. Pretendo consertar esse bug na próxima versão.
