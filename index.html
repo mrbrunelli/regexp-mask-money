@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaskMoney.js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ae85dff3f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <label for="money">Money R$</label>
+            <input type="text" id="money" onkeyup="maskMoney(event)" autofocus maxlength="11"
+                placeholder="Ex: 1.249,90">
+            <h2>BRL moneyMask <i class="fab fa-js"></i></h2>
+            <small>By <a href="https://github.com/mrbrunelli" target="_blank">Matheus R. Brunelli</a></small>
+        </div>
+    </div>
+
+    <script src="maskMoney.js"></script>
+</body>
+
+</html>
