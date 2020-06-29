@@ -7,13 +7,17 @@ body {
 }
 
 .container {
-    height: 100vh;
-    width: 100vw;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     text-align: right;
+    margin: 10px;
+}
+
+#app {
+    margin: 0 20px 0 20px;
 }
 
 #money {
